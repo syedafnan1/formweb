@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-color:burlywood;
+        }
+        div{
+            text-align: center;
+            border: 1px ;
+        }
+        fieldset{
+            text-align: left;
+            border: 1px solid black;
+            font-size: medium;
+        }
+        
+        label{
+           
+            float: left;
+        }
+        input{
+            float: right;
+        }
+        button{
+            float: right;
+        }
+        .id{
+            float: left;
+        }
+       
+
+    </style>
+
+    <title>FORM NINJAAS ASSESSMENT</title>
+</head>
+<body>
+
+        <form action="POST" method="GET"></form>
+    <fieldset>
+        <legend>NINJAAS ASSESSMENT</legend>
+        <br>
+    <label for="  First Name"> Employees First Name</label> <input type="text" id="First Name" placeholder="ENTER THE First NAME">
+    <br>
+    <br>
+
+    <label for=""> Employees last Name</label> <input type="text"  placeholder="ENTER THE Last NAME">
+    <br>
+
+    <br><label for=""> Employees E-MAIL ID</label> <input type="text" placeholder="ENTER THE EMIAL ID">
+    <br>
+    <br>
+
+    <label for="">PASSWORD</label> <input type="text" placeholder="ENTER THE PASSWORD">
+    <br>
+    <br>
+
+    <label for="">Comfirm PASSWORD</label> <input type="text" placeholder="PASSWORD">
+    <br>
+    <br>
+
+    <label for=""> Employees Qualification</label>   <select name="Qualification" >
+    <option value="BE">BE</option>
+    <option value="B.tech">B.TECH</option>
+    <option value="bca">BCA</option>
+</select>
+ <br><br>
+
+    <label for=""> YEAR OF PASSOUT</label> <input type="text" placeholder="Y.O.P">
+    <br><br>
+
+    <label for="">Course</label> <input type=" " placeholder=" ">
+    <br><br>
+
+    <label for="GENDER">GENDER</label>  
+    <br>
+    <input type="radio" value="Male" class="id" name="GENDER">Male 
+    <br>
+    <input type="radio" value="Female" class="id" name="GENDER">Female
+    <br><br>
+
+    <label for="">Employees Place</label>  <input type="" placeholder="">
+    <br><br>
+    <label for="">Subject</label> 
+    <br><br>
+    <input type="checkbox" value="java">java
+    <br><br>
+    <input type="checkbox" value="javaScript">javaScript
+    <br><br>
+    <input type="checkbox" value="SQL">SQL
+    <br><br>
+    <input type="checkbox" value="web TECHNOLOGY">WEB TECHNOLOGY
+    <br><br>
+    <br><br>
+
+    <label for="">UPLOAD FILE</label> <input type="file">
+    <br><br><br>
+
+    <input type="SUBMIT" value="SUBMIT" >
+     </fieldset>
+    </div>
+
+    
+</body>
+</html>
